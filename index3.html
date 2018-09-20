@@ -23,11 +23,9 @@
 <body style= "background-color: white" class="d-flex align-items-start flex-column">
 <body style= "background-color: " class="d-flex align-items-start flex-column">
    
-   
-    <!-- Nav Bar -->
     <nav class="w-100 navbar align-self-start sticky-top navbar-expand-lg ">
       <div style= "align-content: center">
-       <img class= "center" src="Images/Logo.png" alt="">
+      <a href ="index.html"><img class= "center" src="Images/Logo.png" alt="logo"></a>
       </div>
     
 
@@ -38,19 +36,19 @@
               More Information
             </a>
             <div id="sections" class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#product-info">Events & Meetings Calendar</a>
-              <a class="dropdown-item" href="#similar-items">Volunteer</a>
+              <a class="dropdown-item" href="index.html">Events & Meetings Calendar</a>
+              <a class="dropdown-item" href="#volunteer">Volunteer</a>
             </div>
           </li>
         </ul>
 
-      <!-- Search  -->
+
       <form class="removed form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn my-2 my-sm-0" type="submit">Search</button>
       </form>
 
-      <!-- Sign up -->
+
       <ul class="ml-2 navbar-nav">
         <li class="removed nav-item">
           
@@ -60,77 +58,70 @@
 
     <div class="jumbotron center">
         <div class="container text-center">
-            <h1 class="display-4">Success!</h1>
-            <p class="lead">Your reservation has been confirmed for <strong><u>"Solar Panel Installation Workshop"</u></strong></p>
+            <h1 class="display-4"><strong>Success!</strong></h1>
+            <p class="lead">Your reservation has been confirmed for <strong><u><a href="index2.html">"Solar Panel Installation Workshop"</a></u></strong><img src="Images/ConfirmationPlant.gif"></p>
+            <p class="lead">Your reservation has been confirmed for <strong><u><a href="index2.html">"Solar Panel Installation Workshop"</a></u></strong><br><img src=""></p>
             <hr class="my-4">
             <p>We'll see you on September 22nd at 9am.</p>
             <p class="lead">
-              <a class="btn btn-primary btn-lg" href="index2.html" role="button">Back to Calendar</a>
+              <a class="btn btn-primary btn-lg" href="index.html" role="button">Back to Calendar</a>
             </p>
         </div>
           </div>
-  <!-- Chat Button with Popover-->
+
+          <div class="col-12">
+            <h3><u><b>>> OTHER EVENTS </u></b></h3>
+            <div class="row justify-content-center no-padding">
+
+              <div class="col-3">
+                <div class="card">
+                  <img class="card-img-top" src="Images/composting.jpg" alt="Composting">
+                  <div class="card-body">
+                    <center>
+                    <h4 class="card-title">Composting Workshop</h4>
+                    <p class="card-text"><strong>9/7 | 6-8:30PM:</strong><br>Here you’ll find all you need to know about getting started as well as maintaining the process no matter which composting method you’ve chosen. 
+                    </p>
+                    <a href="#" class="btn primary-color">More Info</a>
+                  </center>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                  <img class="card-img-top" src="Images/pollution.jpg" alt="Protest">
+                  <div class="card-body">
+                    <center>
+                    <h4 class="card-title">Power Plant Protest</h4>
+                    <p class="card-text"><strong>9/14 | 1-3PM:</strong><br>Come join us to fight back against the archaic, polluted power plant!
+                    </p>
+                    <a href="#" class="btn primary-color">More Info</a>
+                  </center>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card">
+                  <img class="card-img-top" src="Images/happyhour.jpeg" alt="Happy Hour">
+                  <div class="card-body">
+                  <center>
+                    <h4 class="card-title">Hopdoddy Happy Hour </h4>
+                    <p class="card-text"><strong>9/25 | 5-7PM:</strong><br>Join us for food & drinks!
+                    </p>
+                    <a href="#" class="btn primary-color">More Info</a>
+                  </center>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
   <button id="chatPopover" type="button" class="chat btn">Need help?</button>
 
 
-
-  <!-- Modal -->
-  <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="modalHeader" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalHeader">Sign up for updates sent right to your inbox!</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-
-        <!-- Modal Body - Form -->
-        <div class="modal-body">
-          <form>
-            <div class="form-group">
-              <label for="firstName">First Name</label>
-              <div id="nameAlert" class="alert" role="alert">
-                Please enter your first name.
-              </div>
-              <input type="text" class="form-control" id="firstName">
-            </div>
-            <div class="form-group">
-              <label for="lastName">Last Name</label>
-              <input type="text" class="form-control" id="lastName">
-            </div>
-            <div class="form-group">
-              <label for="eMail">E-mail</label>
-              <div id="emailAlert" class="alert" role="alert">
-                Please enter an e-mail address.
-              </div>
-              <input type="email" class="form-control" id="eMail">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-          </form>
-        </div>
-
-        <!-- Modal Footer - Button -->
-        <div class="modal-footer">
-          <button type="button" id="signUpBtn" class="btn">Sign me up!</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
- 
-
-
-      </div>
-
-    </div>
-
-  </div>
-
+  
 </div>
-
 </div>
 
 

@@ -28,7 +28,7 @@ img{
   max-width: 80%;
 }
 
-/* Alert */
+
 .top-bar {
   background-color: #0F81E8;
   color: white;
@@ -52,19 +52,15 @@ img{
 }
 
 .lead a:hover {
-  color: #7ac9d3;
+  color: white;
 }
 
-/* Brand Icon */
+
 nav img {
   width: 30px;
   height: auto;
 }
 
-/* Cart & Badge */
-.cart {
-  position: relative;
-}
 
 .cart .badge {
   position: absolute;
@@ -75,7 +71,7 @@ nav img {
   display: none;
 }
 
-/* Button Overrides */
+
 .btn {
   background-color: #0F81E8;
   color: white;
@@ -93,20 +89,19 @@ nav img {
   color: white;
 }
 
-/* Grid Adjustment */
 .row {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-/* Section Headers */
+
 .section-header {
   display: inline;
   border-bottom: 2px solid #0F81E89;
   padding-right: 20px;
 }
 
-/* Carousel */
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   height: 25px;
@@ -117,7 +112,6 @@ nav img {
 }
 
 
-/* Chat Button for popover */
 .chat {
   position: fixed;
   height: auto;
@@ -147,7 +141,6 @@ nav img {
   border: 2px solid white;
 }
 
-/* Popover */
 .popover {
   width: 250px;
 }
@@ -155,17 +148,6 @@ nav img {
 .popover-header {
   display: flex;
   align-items: center;
-}
-
-.form-control {
-  width: 100%;
-}
-
-#emailAlert,
-#nameAlert {
-  background-color: #0F81E8;
-  color: white;
-  display: none;
 }
 
 .jumbotron{
@@ -200,7 +182,7 @@ background-color:  #0F81E8;
 
 .card-title {
   border-radius: 0;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'century gothic';
 
 }
 
